@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    environment:
+      - TEST
+    build: 
+      context: .
+
+    volumes:
+      - .:/app
